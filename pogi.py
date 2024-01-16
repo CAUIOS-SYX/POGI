@@ -125,7 +125,7 @@ def file_crack():
         exit(f"\n{rad} allow the permission ... ")
     try:
         limit = int(input(f"\n[{green}+{white}] Input Password Limit : "))
-        if limit > 9:
+        if limit > 50:
             limit = 3
     except ValueError:
         limit = 3
